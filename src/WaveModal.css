@@ -1,0 +1,57 @@
+.modalHeader {
+  padding: 16px;
+  background-color: rgb(117,113,94, .1);
+  text-align: center;
+  font-weight: bold;
+  /* border-bottom: solid 1px rgb(120, 220, 232); */
+  color: white;
+}
+
+.modalInput {
+  align-content: center;
+  display: flex;
+  margin: 10px;
+  flex: 1;
+  height: 50px;
+  margin-bottom: 36px;
+}
+
+.buttonRow {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  
+}
+
+.buttonRow button{
+  cursor: pointer;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(120, 220, 232);
+  width: 150px;
+}
+
+.buttonRow button .cancel{
+  cursor: pointer;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #FF6188;
+  /* width: 150px; */
+}
+
+.cancel {
+  background-color: #FF6188;
+}
+
+.messageInput {
+  resize: none;
+  width: 100%;
+  height: 100%;
+}
+
+.messageInput:focus { 
+    outline: solid 1px  rgb(120, 220, 232) !important;
+    border-radius: 5px;
+ }
